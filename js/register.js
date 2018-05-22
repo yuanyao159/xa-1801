@@ -1,0 +1,1 @@
+var form=document.forms.form,userName=form.elements.userName,password=form.elements.password,code=form.elements.code;userName.onfocus=function(){this.value=""},password.onfocus=function(){this.value=""},password.onblur=function(){this.value="密码"},code.onfocus=function(){this.value=""},code.onblur=function(){this.value="验证码"};

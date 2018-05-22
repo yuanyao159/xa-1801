@@ -1,0 +1,1 @@
+$('.listLargeMenu li').each(function(i,n){$(n)[0].addEventListener('click',function(){$(this).children('.listSmallMenu').slideToggle();});});var form = document.forms['form'];var input = form.elements['input'];input.onfocus = function(){this.value = '';};input.onblur = function(){this.value = '输入商品名称或电视商品编号';};
